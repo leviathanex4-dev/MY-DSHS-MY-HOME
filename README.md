@@ -201,9 +201,9 @@ let currentParentChild = "Jibdel"; // For parent login
 /* ---------- LOGIN ---------- */
 function login() {
   const pass = document.getElementById("password").value;
-  if (pass === "admin-t1") role = "teacher";
-  else if (pass === "student-0001") role = "student";
-  else if (pass === "parent-001") role = "parent";
+  if (pass === "teacher") role = "teacher";
+  else if (pass === "student") role = "student";
+  else if (pass === "parent") role = "parent";
   else { document.getElementById("msg").innerText="Invalid password"; return; }
 
   document.getElementById("login").style.display="none";
