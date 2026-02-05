@@ -8,7 +8,7 @@
   body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url('https://www.google.com/imgres?q=school%20photo&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F8%2F8e%2FStaples_High_School%252C_Westport%252C_CT.jpg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSecondary_school&docid=67fwV8wMq5l9dM&tbnid=h1PaCbUKVmS_NM&vet=12ahUKEwjfhoGg08KSAxUEk1YBHck7FkUQM3oECBMQAA..i&w=3316&h=2369&hcb=2&ved=2ahUKEwjfhoGg08KSAxUEk1YBHck7FkUQM3oECBMQAA');
+    background-image: url('https://https://www.google.com/imgres?q=school%20photo&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F8%2F8e%2FStaples_High_School%252C_Westport%252C_CT.jpg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSecondary_school&docid=67fwV8wMq5l9dM&tbnid=h1PaCbUKVmS_NM&vet=12ahUKEwifw-qQ1cKSAxXdSfUHHdL4E_YQM3oECBIQAA..i&w=3316&h=2369&hcb=2&ved=2ahUKEwifw-qQ1cKSAxXdSfUHHdL4E_YQM3oECBIQAA';
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
