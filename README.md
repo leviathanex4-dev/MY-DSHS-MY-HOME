@@ -7,7 +7,7 @@ MY DSHS, MY HOME
   /* ---------- NOTES PAPER BACKGROUND ---------- */
 body {
   margin: 0;
-  font-family: "Times New Roman", serif;
+  font-family: "Allassy Caps", serif;
   background-color: #ffffff;
 
   /* dotted horizontal note lines */
