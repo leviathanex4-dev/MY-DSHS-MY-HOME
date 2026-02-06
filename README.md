@@ -437,6 +437,21 @@ function showLogin() {
 function submitSignup() {
   alert("Signup successful! You can now log in.");
   showLogin();
+}  
+
+function showSignup() {
+  document.getElementById("login").style.display = "none";
+  document.getElementById("signup").style.display = "flex";
+}
+
+function showLogin() {
+  document.getElementById("signup").style.display = "none";
+  document.getElementById("login").style.display = "flex";
+}
+
+function submitSignup() {
+  alert("Signup successful! You can now log in.");
+  showLogin();
 }
 </script>
 
