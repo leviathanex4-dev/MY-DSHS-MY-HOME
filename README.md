@@ -33,40 +33,21 @@ body {
   text-decoration: underline;
 }
 
-/* ---------- LOGIN ---------- */
-  .login {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+<!-- LOGIN -->
+<div class="login" id="login">
+  <div class="box">
+    <h2>Login</h2>
+    <input type="password" id="password" placeholder="Enter password">
+    <button onclick="login()">Login</button>
 
-<p style="font-size:13px; margin-top:15px;">
-  Don’t have an account yet?
-  <span class="signup-link" onclick="showSignup()">Sign up!</span>
-</p>
+    <p style="font-size:13px; margin-top:15px;">
+      Don’t have an account yet?
+      <span class="signup-link" onclick="showSignup()">Sign up!</span>
+    </p>
 
-  .box {
-    background: rgba(255,255,255,0.95);
-    padding: 25px;
-    width: 300px;
-    border-radius: 8px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
-    text-align: center;
-  }
-
-  input, button, textarea, select {
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-  }
-
-  button {
-    background: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
+    <p id="msg"></p>
+  </div>
+</div>
 
 <!-- SIGN UP -->
 <div class="login" id="signup" style="display:none;">
