@@ -68,6 +68,27 @@ body {
     cursor: pointer;
   }
 
+<!-- SIGN UP -->
+<div class="login" id="signup" style="display:none;">
+  <div class="box">
+    <h2>Student Sign Up</h2>
+
+    <input type="text" placeholder="Full Name">
+    <input type="text" placeholder="Student I.D">
+    <input type="text" placeholder="Section">
+    <input type="text" placeholder="Track">
+    <input type="text" placeholder="Strand">
+    <input type="text" placeholder="Grade Level">
+
+    <button onclick="submitSignup()">Create Account</button>
+
+    <p style="font-size:13px; margin-top:10px;">
+      Already have an account?
+      <span class="signup-link" onclick="showLogin()">Login</span>
+    </p>
+  </div>
+</div>
+
   /* ---------- DASHBOARD ---------- */
   .dashboard {
     display: none;
